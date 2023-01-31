@@ -1,0 +1,38 @@
+let num1 = parseInt(prompt("Digite o primeiro número:"));
+let num2 = parseInt(prompt("Digite o segundo número:"));
+let op = prompt("Digite a operação desejada: \n (+, -, *, /)");
+switch (op){
+  case "+":
+    var resultado = num1 + num2;
+    break;
+  case "-":
+    var resultado = num1 - num2;
+    break;
+  case "*":
+    var resultado = num1 * num2;
+    break;
+  case "/":         
+    var resultado = num1 / num2;
+    break;
+  default:
+    document.write("Opção Inválida");
+}
+    document.write("Resultado da operação ", num1 + op + num2, " = ", resultado);
+
+
+/////////////////////////////////////////////////////////
+
+let num1 = parseInt(prompt("Digite o primeiro número:"));
+let num2 = parseInt(prompt("Digite o segundo número:"));
+let op = prompt("Digite a operação desejada: \n (+, -, *, /)");
+if(op=="+")
+    var resultado = num1 + num2;
+  else if (op=="-")
+          var resultado = num1 - num2;
+       else if (op=="*")
+              var resultado = num1 * num2;
+            else if (op=="/")        
+                   var resultado = num1 / num2;
+                 else
+                   document.write("Opção Inválida");
+document.write("Resultado da operação ", num1 + op + num2, " = ", resultado);
