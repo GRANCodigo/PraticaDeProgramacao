@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>MEU PRIMEIRO EXEMPLO</title>
+</head>
+<body>
+<input type="text" id="n1"> <br>
+<input type="text" id="n2"> <br>
+<p id="res"> Resultado: </P>
+
+<button onclick="Soma()"> Soma </button>
+
+<Script src="teste.js"></script>
+</body>
+</html>
