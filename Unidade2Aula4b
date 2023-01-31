@@ -1,0 +1,12 @@
+let anoAtual = parseInt(prompt("Digite o ano atual"));
+let anoNasc = parseInt(prompt("Digite o ano do seu nascimento"));
+let idade = anoAtual - anoNasc;
+document.write("Você tem aproximadamente ", idade, " anos <br>");
+
+if (idade<16)
+  document.write("Você não é eleitor");
+  else if (idade>=18 && idade<65)
+    document.write("Eleitor Obrigatório");
+    else
+      document.write("Eleitor Facultativo");
+
