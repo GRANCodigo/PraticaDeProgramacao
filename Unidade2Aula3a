@@ -1,0 +1,58 @@
+//Exemplo 1 - contador - while
+let contador = 1;
+
+while (contador <= 10) {
+  console.log(contador);
+  contador++;
+}
+
+
+//Exemplo 2 - somatório - while
+let contador = 1; //variável contadora
+let soma = 0;
+
+while (contador <= 10) {
+  console.log(contador);
+  soma+=contador; //variável acumuladora (soma = soma + contador)
+  contador++;
+}
+  console.log("O somatório é: " + soma);
+
+
+////////////////////////////////////////////////////////////////////////////
+
+//Exemplo 1 - contador - do...while
+let contador = 1;
+
+do {
+  console.log(contador);
+  contador++;
+}while (contador <= 10);
+
+
+//Exemplo 2 - somatório - do...while
+let contador = 1; //variável contadora
+let soma = 0;
+
+ do{
+  console.log(contador);
+  soma+=contador; //variável acumuladora (soma = soma + contador)
+  contador++;
+} while (contador <= 10);
+console.log("O somatório é: " + soma);
+
+
+///////////////////////////////////////////////////////////////////////////
+//Exemplo 1 - contador - for
+for (let contador=10; contador>=1; contador--) {
+  console.log(contador);
+}
+
+//Exemplo 2 - somatório - for
+soma=0;
+for (let contador=1; contador<=10; contador++) {
+  console.log(contador);
+  soma+=contador; //variável acumuladora (soma = soma + contador)
+}
+console.log("O somatório é: " + soma);
+ 
