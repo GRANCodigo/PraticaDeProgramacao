@@ -1,0 +1,9 @@
+const pessoa = {
+  altura: 1.60,
+  peso: 60,
+  sexo: "feminino",
+  naturalidade: "RJ",
+};
+for (const prop in pessoa){
+  console.log(prop + "= " + pessoa[prop]);
+}
