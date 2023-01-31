@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Apostila JavaScript Progressivo</title>
+   <script>
+      function tabuada(){
+          var numero = parseInt(document.getElementById("numero").value);
+          var resposta = document.getElementById('resposta');
+          var tabuada='';
+
+          for(var cont=1; cont<=10 ; cont++)
+            tabuada += numero +" x "+ cont +" = "+ numero*cont +"<br />";
+
+      resposta.innerHTML = tabuada;
+      }
+   </script>
+ </head>
+ <body>
+    Tabuada do número: <input id="numero" type="text"><br>
+    <button onclick="tabuada()">Exibir</button><br>
+    Tabuada: <br>
+    <div id='resposta'></div>
+ </body>
+</html>
+
+//////////////////////////////////////////////////////////
+var numero = parseInt(prompt("Digite um número:"));
+document.write("Tabuada: <br>");
+  for(var cont=1; cont<=10 ; cont++)
+     document.write(numero + " X " + cont + " = " + numero*cont + "<br>");
+
+//////////////////////////////////////////////////////
+var numero = parseInt(prompt("Digite um número:"));
+var cont=1;
+document.write("Tabuada: <br>");
+  while(cont<=10){
+     document.write(numero + " X " + cont + " = " + numero*cont + "<br>");
+     cont++;
+  }
+
+////////////////////////////////////////////////////
+var numero = parseInt(prompt("Digite um número:"));
+var cont=1;
+document.write("Tabuada: <br>");
+  do{
+     document.write(numero + " X " + cont + " = " + numero*cont + "<br>");
+     cont++;
+  }while(cont<=10);
+
