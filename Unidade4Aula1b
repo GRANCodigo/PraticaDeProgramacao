@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="//stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Carrinho de Compras</title>
+</head>
+<body>
+    <div class="container bg-white rounded-top mt-5" id="zero-pad">
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-10 col-12 pt-3">
+                <div class="d-flex">
+                    <div><img src="https://loja.grancursosonline.com.br/wp-content/themes/base-framework/assets/logo-loja-gran-no-background.png" width="200" height="100"></div>
+                    <div class="ml-auto p-2"><a href="#" class="text-dark text-decoration-none" id="mobile-font">ENTRAR</a></div>
+                    <div class="p-2"><a href="#" class="text-dark text-decoration-none a" id="mobile-font">AJUDA</a></div>                                            
+                </div>
+                <div class="d-flex flex-column pt-4">
+                    <div><h5 class="text-uppercase font-weight-normal">Lojinha da GranCursos</h5></div>
+                    <div class="font-weight-normal">3 itens</div>
+                </div>
+                <div class="d-flex flex-row px-lg-5 mx-lg-5 mobile" id="heading">
+                    <div class="px-lg-5 mr-lg-5" id="produc">PRODUTOS</div>
+                    <div class="px-lg-5 ml-lg-5" id="prc">PREÇO</div>
+                    <div class="px-lg-5 ml-lg-1" id="quantity">QUANTIDADE</div>
+                    <div class="px-lg-5 ml-lg-3" id="total">TOTAL</div>
+                </div>
+                <div class="d-flex flex-row justify-content-between align-items-center pt-lg-4 pt-2 pb-3 border-bottom mobile">
+                    <div class="d-flex flex-row align-items-center">
+                        <div><img src="https://grancursos-blog-loja-prd.s3.amazonaws.com/wp-content/uploads/2022/10/01150955/900x900_9.jpg" width="150" height="150" alt="" id="image"></div>
+                        <div class="d-flex flex-column pl-md-3 pl-1">
+                            <div><h6>Caneca Eu dou Conta</h6></div>
+                            <div>Código:<span class="pl-2">091091001</span></div>
+                            <div>Cor:<span class="pl-3">Branco</span></div>
+                         </div>                    
+                    </div>
+                    <div class="pl-md-0 pl-1"><b>R$45,00</b></div>
+                    <div class="pl-md-0 pl-2">
+                        <span class="fa fa-minus-square text-secondary"></span><span class="px-md-3 px-1">2</span><span class="fa fa-plus-square text-secondary"></span>
+                    </div>
+                    <div class="pl-md-0 pl-1"><b>R$90,00</b></div>
+                    <div class="close">&times;</div>
+                </div>
+                <div class="d-flex flex-row justify-content-between align-items-center pt-4 pb-3 mobile">
+                    <div class="d-flex flex-row align-items-center">
+                        <div><img src="https://grancursos-blog-loja-prd.s3.amazonaws.com/wp-content/uploads/2022/10/01151137/900x900_11.jpg" width="150" height="150" alt="" id="image"></div>
+                        <div class="d-flex flex-column pl-md-3 pl-1">
+                            <div><h6>Moleskine</h6></div>
+                            <div>Código:<span class="pl-2">056289891</span></div>
+                            <div>Cor:<span class="pl-3">Vermelho</span></div>
+                        </div>                    
+                    </div>
+                    <div class="pl-md-0 pl-1"><b>R$39,90</b></div>
+                    <div class="pl-md-0 pl-2">
+                        <span class="fa fa-minus-square text-secondary"></span><span class="px-md-3 px-1">1</span><span class="fa fa-plus-square text-secondary"></span>
+                    </div>
+                    <div class="pl-md-0 pl-1"><b>R$39,90</b></div>
+                    <div class="close">&times;</div>
+                </div>
+                <div class="d-flex flex-row justify-content-between align-items-center pt-lg-4 pt-2 pb-3 border-bottom mobile">
+                    <div class="d-flex flex-row align-items-center">
+                        <div><img src="https://grancursos-blog-loja-prd.s3.amazonaws.com/wp-content/uploads/2022/10/01151653/900x900_19.jpg" width="150" height="150" alt="" id="image"></div>
+                        <div class="d-flex flex-column pl-md-3 pl-1">
+                            <div><h6>Caneca Mágica</h6></div>
+                            <div>Código:<span class="pl-2">091091001</span></div>
+                            <div>Cor:<span class="pl-3">Bege</span></div>
+                        </div>                    
+                    </div>
+                    <div class="pl-md-0 pl-1"><b>R$49,90</b></div>
+                    <div class="pl-md-0 pl-2">
+                        <span class="fa fa-minus-square text-secondary"></span><span class="px-md-3 px-1">1</span><span class="fa fa-plus-square text-secondary"></span>
+                    </div>
+                    <div class="pl-md-0 pl-1"><b>R$49,90</b></div>
+                    <div class="close">&times;</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container bg-light rounded-bottom py-4" id="zero-pad">
+        <div class="row d-flex justify-content-center">
+            <div class="col-lg-10 col-12">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <button class="btn btn-sm bg-light border border-dark">VOLTAR</button>
+                    </div>
+                    <div class="px-md-0 px-1" id="footer-font">
+                        <b class="pl-md-4">SUBTOTAL<span class="pl-md-4">R$179,80</span></b>
+                    </div>
+                    <div>
+                        <button class="btn btn-sm bg-dark text-white px-lg-5 px-3">CONTINUAR</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
