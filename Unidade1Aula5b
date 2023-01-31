@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta chaset="UTF-8">
+	<title>Exemplo JS</title>
+</head>  
+<body> 
+	<h2>O que o JavaScript pode fazer?</h2>
+	<p>JavaScript pode alterar os valores de atributo HTML.</p>
+	<p>Nesse caso, o JavaScript altera o valor do atributo src (source) de uma imagem.</p>
+	
+	<button onclick="document.getElementById('imagem').src='https://www.w3schools.com/js/pic_bulbon.gif'"> Acende Lampada</button>
+	
+	<img id="imagem" src="https://www.w3schools.com/js/pic_bulboff.gif" style="width:100px">
+	
+	<button onclick="document.getElementById('imagem').src='https://www.w3schools.com/js/pic_bulboff.gif'"> apaga Lampada</button>
+
+</body> 
+</html>
